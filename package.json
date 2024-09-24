@@ -8,7 +8,6 @@
     "@fontsource/montserrat": "^5.0.18",
     "@fontsource/noto-serif": "^5.0.20",
     "axios": "^1.7.1",
-    "caniuse-lite": "^1.0.30001663",
     "decap-cms-app": "^3.1.10",
     "easy-react-text-loop": "^1.0.2",
     "gatsby": "^5.13.6",
