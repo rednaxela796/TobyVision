@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 
-import logo from "../images/tv.webp"
+import logo from "../images/tvSmall.webp"
 import Fade from "react-reveal/Fade";
 
 const Footer = () => {
@@ -23,15 +23,25 @@ const Footer = () => {
               </p>
               <div className="text-black font-bold block-inline">
                 <p>
-                  <a className="text-black font-bold block-inline" href="/">
+                  <a className="text-black font-bold block-inline" href="https://instagram.com/tobyvision">
 
                     <img
-                      className="w-5 h-5 mt-1"
-                      src="/img/Github-Logo.png"
-                      alt="GitHub"
+                        className="w-5 h-5 mt-1"
+                        src="/img/Instagram-Logo.png"
+                        alt="GitHub"
                     ></img>
                   </a>
                 </p>
+{/*                <p>
+                  <a className="text-black font-bold block-inline" href="https://instagram.com/tobyvision">
+
+                    <img
+                        className="w-5 h-5 mt-1"
+                        src="/img/Mail-Logo.png"
+                        alt="GitHub"
+                    ></img>
+                  </a>
+                </p>*/}
               </div>
             </div>
 
@@ -41,7 +51,7 @@ const Footer = () => {
                   <Link to="/">Home</Link>
                 </li>
                 <li>
-                  <Link to="/about">Über uns</Link>
+                <Link to="/about">Über uns</Link>
                 </li>
                 <li>
                   <Link to="/gallery">Projekte</Link>

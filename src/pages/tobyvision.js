@@ -8,7 +8,7 @@ import Layout from "../components/layout"
 import AboutExtra from "../components/about/aboutExtra"
 import AboutHeader from "../components/about/aboutHeader"
 
-const About = () => {
+const Tobyvision = () => {
   return (
     <Layout>
       <Seo
@@ -23,4 +23,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Tobyvision

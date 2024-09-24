@@ -41,7 +41,7 @@ const Header = () => {
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md mt-20 ml-1.5">
                 <a
-                  href="/contact"
+                  href="/kontakt"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple  hover:bg-transparent md:text-lg md:px-10 "
                 >
                   Ihr Projekt Starten

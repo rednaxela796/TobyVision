@@ -7,7 +7,7 @@ import Seo from "../components/seo"
 
 import image from "../images/holographic-background.webp"
 
-const Contact = () => {
+const Kontakt = () => {
   return (
     <Layout>
       <Seo
@@ -53,7 +53,7 @@ const Contact = () => {
                         Phone
                       </p>
                       <p className="text-neutral-500 mb-2">
-                        <a href="tel:+#">0176 - 7006 7578</a>
+                        <a href="tel:+4917670067578">0176 - 7006 7578</a>
                       </p>
                     </div>
                   </div>
@@ -200,4 +200,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Kontakt

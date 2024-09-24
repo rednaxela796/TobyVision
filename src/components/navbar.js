@@ -26,20 +26,20 @@ const Navbar = () => {
                 </Link>
                 <Link
                   className="relative after:rounded after:bg-purple after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-black opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
-                  to="/about"
+                  to="/tobyvision"
                 >
                   Über uns
                 </Link>
 
                 <Link
                   className="relative after:rounded after:bg-purple after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-black opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
-                  to="/gallery"
+                  to="/galerie"
                 >
                   Projekte
                 </Link>
                 <Link
                   className="relative after:rounded after:bg-purple after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-black opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
-                  to="/contact"
+                  to="/kontakt"
                 >
                   Kontakt
                 </Link>
