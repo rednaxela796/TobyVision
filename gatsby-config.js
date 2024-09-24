@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `TobyVision Web-Videoproduktion`,
     description: `TobyVision ist spezialisiert auf die qualitativ hochwertige Produktion von Webvideos für Ihr Unternehmen`,
-    siteUrl: "https://tobyvision.de/",
+    siteUrl: "https://tobyvision.netlify.app",
     author: `Alexander Gardemann & Tobiasz Smith <kontakt@tobyvision.de>`,
   },
   plugins: [
