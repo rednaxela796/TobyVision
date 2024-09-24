@@ -1,18 +1,18 @@
 import React from "react"
-import Gallery from "../components/gallery-page"
+import Galerie from "../components/galerie-page"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const GalleryPage = () => {
+const GaleriePage = () => {
   return (
     <Layout>
       <Seo
-        title="Holo - Gallery"
+        title="Holo - Galerie"
         description="Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS"
       ></Seo>
-      <Gallery></Gallery>
+      <Galerie></Galerie>
     </Layout>
   )
 }
 
-export default GalleryPage
+export default GaleriePage

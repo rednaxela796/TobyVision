@@ -1,16 +1,19 @@
 ---
-templateKey: gallerie-post
-title: Minimalist Gatsby Starter Theme
-date: 2024-03-30T18:18:16.118Z
-featuredimage: /img/holographic-background.webp
+templateKey: galerie-post
+title: Impressum
+date: 2024-03-30T15:02:06.069Z
+featuredimage: /img/Holographic-Liquid-3.jpg
 categories:
-  - Gatsby
-description: >-
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+tags:
+description: Lorem Ipsum is simply dummy text of the printing and typesetting
+  industry. Lorem Ipsum has been the industry's standard dummy text ever since
+  the 1500s, when an unknown printer took a galley of type and scrambled it to
+  make a type specimen book.
 ---
-## Lorem Ipsum 
+## Angaben §5 TMG
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+TobyVision Alexander Gardemann & Tobiasz Smith GbR
+Leybergweg 10, 53619 Rheinbreitbach
 
 ## Simply Dummy Text
 

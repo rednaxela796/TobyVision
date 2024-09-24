@@ -1,12 +1,12 @@
 ---
-templateKey: gallerie-post
-title: Noroo Clothing GmbH
-date: 2024-05
-featuredimage: /img/Holographic-Liquid-1.jpg
+templateKey: galerie-post
+title: ViNCE
+date: 2024-09
+featuredimage: /img/Holographic-Liquid-2.jpg
 categories:
-  - Referenz
+  - galerie
 tags:
-  - Referenz
+  - galerie
 description: Lorem Ipsum is simply dummy text of the printing and typesetting
   industry. Lorem Ipsum has been the industry's standard dummy text ever since
   the 1500s, when an unknown printer took a galley of type and scrambled it to

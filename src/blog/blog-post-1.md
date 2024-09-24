@@ -1,12 +1,12 @@
 ---
-templateKey: gallerie-post
+templateKey: blog-post
 title: Noroo Clothing GmbH
 date: 2024-05
 featuredimage: /img/Holographic-Liquid-1.jpg
 categories:
-  - Referenz
+  - blog
 tags:
-  - Referenz
+  - blog
 description: Lorem Ipsum is simply dummy text of the printing and typesetting
   industry. Lorem Ipsum has been the industry's standard dummy text ever since
   the 1500s, when an unknown printer took a galley of type and scrambled it to

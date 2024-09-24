@@ -1,12 +1,12 @@
 ---
-templateKey: gallerie-post
+templateKey: blog-post
 title: Lorem Ipsum Is Simply Dummy Text
 date: 2024-03-30T15:02:06.069Z
 featuredimage: /img/Holographic-Liquid-2.jpg
 categories:
-  - gallerie
+  - blog
 tags:
-  - gallerie
+  - blog
 description: Lorem Ipsum is simply dummy text of the printing and typesetting
   industry. Lorem Ipsum has been the industry's standard dummy text ever since
   the 1500s, when an unknown printer took a galley of type and scrambled it to

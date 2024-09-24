@@ -39,12 +39,12 @@ const BlogPost = props => {
       ? pageContext.previous.fields.slug
       : "/"
   const nextLinkStatus = pageContext.next
-      ? pageContext.next.frontmatter.templateKey === "gallerie-post"
+      ? pageContext.next.frontmatter.templateKey === "blog-post"
           ? true
           : false
       : false
   const previousLinkStatus = pageContext.previous
-      ? pageContext.previous.frontmatter.templateKey === "gallerie-post"
+      ? pageContext.previous.frontmatter.templateKey === "blog-post"
           ? true
           : false
       : false

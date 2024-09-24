@@ -32,19 +32,19 @@ const StyledDiv = styled.div`
     color: #6b46c1;
   }
 `
-const BlogPost = props => {
+const GaleriePost = props => {
   const { pageContext } = props
   const nextSlug = pageContext.next ? pageContext.next.fields.slug : "/"
   const previousSlug = pageContext.previous
     ? pageContext.previous.fields.slug
     : "/"
   const nextLinkStatus = pageContext.next
-    ? pageContext.next.frontmatter.templateKey === "gallerie-post"
+    ? pageContext.next.frontmatter.templateKey === "galerie-post"
       ? true
       : false
     : false
   const previousLinkStatus = pageContext.previous
-    ? pageContext.previous.frontmatter.templateKey === "gallerie-post"
+    ? pageContext.previous.frontmatter.templateKey === "galerie-post"
       ? true
       : false
     : false
@@ -63,7 +63,7 @@ const BlogPost = props => {
   return (
     <Layout>
       <Seo
-        title="Blog"
+        title="Galerie"
         description="We have been providing professional repair services in the city since 1993 ,and we have helped thousands of local car owners to restore their vehicles."
       />
       <main className="pt-8 pb-16 lg:pt-16 lg:pb-24">
@@ -144,10 +144,10 @@ const BlogPost = props => {
   )
 }
 
-export default BlogPost
+export default GaleriePost
 
 export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!) {
+  query GaleriePostBySlug($slug: String!) {
     site {
       siteMetadata {
         title

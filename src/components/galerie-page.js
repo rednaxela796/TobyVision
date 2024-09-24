@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade"
 import HeroImage from "../images/tvSmall.webp"
 import BackGroud from "../images/holographic-background.webp"
 
-const Gallery = () => {
+const Galerie = () => {
   return (
     <div className="max-w-7xl mx-auto mt-10">
       <Fade duration={2200}>
@@ -30,7 +30,7 @@ const Gallery = () => {
         <Fade bottom cascade>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
             <a
-              href="/gallerie/villa-first/"
+              href="/galerie/villa-first/"
               className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:h-80"
             >
               <img
@@ -48,7 +48,7 @@ const Gallery = () => {
             </a>
 
             <a
-              href="/gallerie/noroo-clothing/"
+              href="/galerie/noroo-clothing/"
               className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:col-span-2 md:h-80"
             >
               <img
@@ -66,7 +66,7 @@ const Gallery = () => {
             </a>
 
             <a
-              href="/gallerie/pizzeria-bosso/"
+              href="/galerie/pizzeria-bosso/"
               className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:col-span-2 md:h-80"
             >
               <img
@@ -84,7 +84,7 @@ const Gallery = () => {
             </a>
 
             <a
-              href="/gallerie/vince/"
+              href="/galerie/vince/"
               className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:h-80"
             >
               <img
@@ -101,7 +101,7 @@ const Gallery = () => {
               </span>
             </a>
             <a
-              href="/gallerie/rossi-al-fiume/"
+              href="/galerie/rossi-al-fiume/"
               className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:h-80"
             >
               <img
@@ -119,7 +119,7 @@ const Gallery = () => {
             </a>
 
             <a
-              href="/gallerie/forissimo-ristorante-italiano/"
+              href="/galerie/forissimo-ristorante-italiano/"
               className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:col-span-2 md:h-80"
             >
               <img
@@ -142,7 +142,7 @@ const Gallery = () => {
   )
 }
 
-export default Gallery
+export default Galerie
 
 /* 
     <div className="columns-1 gap-5 sm:columns-2 sm:gap-8 md:columns-3 lg:columns-4 [&>img:not(:first-child)]:mt-8">

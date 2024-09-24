@@ -1,12 +1,12 @@
 ---
-templateKey: gallerie-post
+templateKey: galerie-post
 title: Villa First im Spohienhof
 date: 2024-07
 featuredimage: /img/Holographic-Liquid-2.jpg
 categories:
-  - gallerie
+  - galerie
 tags:
-  - gallerie
+  - galerie
 description: Lorem Ipsum is simply dummy text of the printing and typesetting
   industry. Lorem Ipsum has been the industry's standard dummy text ever since
   the 1500s, when an unknown printer took a galley of type and scrambled it to
