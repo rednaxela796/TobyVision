@@ -9,6 +9,7 @@
     "@fontsource/noto-serif": "^5.0.20",
     "axios": "^1.7.1",
     "decap-cms-app": "^3.1.10",
+    "easy-react-text-loop": "^1.0.2",
     "gatsby": "^5.13.6",
     "gatsby-plugin-decap-cms": "^4.0.3",
     "gatsby-plugin-gatsby-cloud": "^5.12.2",
@@ -35,6 +36,7 @@
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "react-reveal": "^1.2.2",
+    "react-text-cycle": "^0.0.3",
     "remark-mdx": "^3.0.0",
     "styled-components": "^6.1.8"
   },

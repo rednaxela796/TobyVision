@@ -12,8 +12,8 @@ const About = () => {
   return (
     <Layout>
       <Seo
-        title="About - Holo"
-        description="Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS."
+        title="Über uns - Alexander Gardemann & Tobiasz Smith"
+        description="TobyVision ist spezialisiert auf die qualitativ hochwertige Produktion von Webvideos für Ihr Unternehmen."
       ></Seo>
       <AboutHeader></AboutHeader>
       <AboutPage></AboutPage>

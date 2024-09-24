@@ -11,19 +11,19 @@ const Contact = () => {
   return (
     <Layout>
       <Seo
-        title="Contact - Holo"
-        description="Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS"
+        title="Kontakt - TobyVision"
+        description="TobyVision ist spezialisiert auf die qualitativ hochwertige Produktion von Webvideos für Ihr Unternehmen"
       ></Seo>
 
       <div className="max-w-7xl mx-auto mt-10 flex text-white xxs:flex-col sm:flex-row">
         <Fade duration={1200}>
           <div className="bg-dp opacity-70 p-10 rounded-xl w-3/4 m-5 w-auto">
-            <h1 className="text-3xl text-white">CONTACT HOLO</h1>
+            <h1 className="text-3xl text-white">KONTAKT</h1>
             <h2 className=" text-black text-gradient bg-gradient-to-r from-pink to-purple text-4xl font-bold mt-2 xxs:text-lg sm:text-2xl lg:text-4xl">
-              Gatsby Theme
+              TobyVision
             </h2>
             <p className="text-lg mt-2 opacity-70 w-3/4 xxs:text-xs xxs:w-full sm:text-sm sm:w-3/4">
-              A stunning and minimal personalized website starter theme.
+              Kontaktieren Sie uns für Ihr persönliches Angebot:
             </p>
 
             <div className="w-full shrink-0 grow-0 basis-auto lg:w-ful mt-10">
@@ -53,7 +53,7 @@ const Contact = () => {
                         Phone
                       </p>
                       <p className="text-neutral-500 mb-2">
-                        <a href="tel:+#">(08) 9000 000</a>
+                        <a href="tel:+#">0176 - 7006 7578</a>
                       </p>
                     </div>
                   </div>
@@ -83,8 +83,8 @@ const Contact = () => {
                         Email
                       </p>
                       <p className="text-neutral-500 mb-2">
-                        <a href="mailto:hello@holo.com?subject=Contact Holo for help.">
-                          hello@holo.com
+                        <a href="mailto:kontakt@tobyvision.de">
+                          kontakt@tobyvision.de
                         </a>
                       </p>
                     </div>
@@ -112,40 +112,13 @@ const Contact = () => {
                     </div>
                     <div className="ml-2 grow">
                       <p className="mb-2 font-bold underline decoration-pink">
-                        Location
+                        Standort
                       </p>
-                      <p className="text-neutral-500 mb-2">Worldwide</p>
+                      <p className="text-neutral-500 mb-2">Köln/Bonn und Umgebung</p>
                     </div>
                   </div>
                 </div>
-                <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:px-6">
-                  <div className="align-start flex">
-                    <div className="shrink-0">
-                      <div className="inline-block rounded-md bg-teal-400-100 p-4 text-teal-700">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke-width="1"
-                          stroke="currentColor"
-                          className="h-8 w-8"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M11.088,2.542c0.063-0.146,0.103-0.306,0.103-0.476c0-0.657-0.534-1.19-1.19-1.19c-0.657,0-1.19,0.533-1.19,1.19c0,0.17,0.038,0.33,0.102,0.476c-4.085,0.535-7.243,4.021-7.243,8.252c0,4.601,3.73,8.332,8.332,8.332c4.601,0,8.331-3.73,8.331-8.332C18.331,6.562,15.173,3.076,11.088,2.542z M10,1.669c0.219,0,0.396,0.177,0.396,0.396S10.219,2.462,10,2.462c-0.22,0-0.397-0.177-0.397-0.396S9.78,1.669,10,1.669z M10,18.332c-4.163,0-7.538-3.375-7.538-7.539c0-4.163,3.375-7.538,7.538-7.538c4.162,0,7.538,3.375,7.538,7.538C17.538,14.957,14.162,18.332,10,18.332z M10.386,9.26c0.002-0.018,0.011-0.034,0.011-0.053V5.24c0-0.219-0.177-0.396-0.396-0.396c-0.22,0-0.397,0.177-0.397,0.396v3.967c0,0.019,0.008,0.035,0.011,0.053c-0.689,0.173-1.201,0.792-1.201,1.534c0,0.324,0.098,0.625,0.264,0.875c-0.079,0.014-0.155,0.043-0.216,0.104l-2.244,2.244c-0.155,0.154-0.155,0.406,0,0.561s0.406,0.154,0.561,0l2.244-2.242c0.061-0.062,0.091-0.139,0.104-0.217c0.251,0.166,0.551,0.264,0.875,0.264c0.876,0,1.587-0.711,1.587-1.587C11.587,10.052,11.075,9.433,10.386,9.26z M10,11.586c-0.438,0-0.793-0.354-0.793-0.792c0-0.438,0.355-0.792,0.793-0.792c0.438,0,0.793,0.355,0.793,0.792C10.793,11.232,10.438,11.586,10,11.586z"
-                          />
-                        </svg>
-                      </div>
-                    </div>
-                    <div className="ml-2 grow">
-                      <p className="mb-2 font-bold underline decoration-pink">
-                        Opening Hours
-                      </p>
-                      <p className="text-neutral-500 mb-2">24/7</p>
-                    </div>
-                  </div>
-                </div>
+
               </div>
             </div>
             <form className="mt-5" name="contact" method="POST" netlify>
@@ -153,7 +126,7 @@ const Contact = () => {
                 <div className="sm:mr-5 xxs:mr-0">
                   <label>
                     <Input
-                      placeholder="Your Name"
+                      placeholder="Name"
                       type="text"
                       name="name"
                     ></Input>
@@ -162,7 +135,7 @@ const Contact = () => {
                 <div className="sm:ml-5 xxs:ml-0 xxs:mt-2 sm:mt-0">
                   <label>
                     <Input
-                      placeholder="Your Email"
+                      placeholder="Email"
                       type="email"
                       name="email"
                     ></Input>
@@ -174,7 +147,7 @@ const Contact = () => {
                 <div className="sm:mr-5 xxs:mr-0">
                   <label>
                     <Input
-                      placeholder="Your Company"
+                      placeholder="Firma"
                       type="company"
                       name="company"
                     ></Input>
@@ -184,7 +157,7 @@ const Contact = () => {
                   <label>
                     {" "}
                     <Input
-                      placeholder="Your Phone"
+                      placeholder="Tel."
                       type="phone"
                       name="phone"
                     ></Input>
@@ -195,7 +168,7 @@ const Contact = () => {
                 <textarea
                   className="mt-5 w-full bg-bg bg-opacity-20 rounded-xl p-5 focus:outline-none focus:ring-2 focus:ring-purple focus:border-transparent"
                   rows="5"
-                  placeholder="How can we help you?"
+                  placeholder="Bitte geben Sie uns ein paar Informationen zu Ihrem Projekt"
                   type="text"
                   name="Message"
                 ></textarea>
@@ -204,7 +177,7 @@ const Contact = () => {
                 <label>
                   <Button
                     type="submit"
-                    title="Send Message"
+                    title="Nachricht Senden"
                     colorClass="bg-gradient-to-r from-pink to-purple font-montserrat"
                     marginClass="mt-5"
                   ></Button>

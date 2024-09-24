@@ -2,7 +2,7 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 
 // Assets
-import HeroImage from "../../images/holographic-background-1.webp"
+import HeroImage from "../../images/home1.webp"
 import Image1 from "../../images/3D-liquid-abstract-1.webp"
 import Image2 from "../../images/3D-liquid-abstract.webp"
 import Image3 from "../../images/3D-liquid-abstract-3.webp"
@@ -10,27 +10,7 @@ import Image3 from "../../images/3D-liquid-abstract-3.webp"
 const FeatureSection = () => {
   return (
     <div className="max-w-7xl mx-auto">
-      <Fade bottom cascade>
-        <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
-          <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-black text-2xl">Performance</h3>
-            <h4 className="mt-10 text-black  opacity-70 text-xl">95+</h4>
-          </div>
 
-          <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Accessibility</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
-          </div>
-          <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Best Practices</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
-          </div>
-          <div className="lg:rounded-xl lg:w-1/3 lg:bg-dp bg-dp p-8 rounded-xl m-5 xxs:w-full xxs:bg-dp xxs:rounded-xl xs:w-full xs:bg-dp xs:rounded-xl sm:hidden md:hidden lg:block">
-            <h3 className="text-white text-2xl">SEO</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
-          </div>
-        </div>
-      </Fade>
 
       <div className="max-w-7xl mx-auto lg:px-8 md:px-3">
         <div className="mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row gap-3 lg:flex-justify">
@@ -43,24 +23,22 @@ const FeatureSection = () => {
           </div>
 
           <div className="lg:w-1/2 sm:text-center lg:text-right flex flex-col justify-center">
-            <h2 className="text-black text-4xl font-semibold">PERFORMANCE</h2>
+            <h2 className="text-black text-4xl font-semibold">PROJEKTE</h2>
             <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-              Time to unlock new speeds
+              Gallerie
             </h3>
 
             <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s.
+              Unsere erfahrung und abgeschlossenen Filmprojekte
             </p>
 
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-end">
               <div className="rounded-md">
                 <a
-                  href="tel:#"
+                  href="tel:017670067578"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
                 >
-                  Call Us Now
+                  Rufen Sie uns an
                 </a>
               </div>
               <div className="mt-3 sm:mt-0 sm:ml-3">
@@ -68,7 +46,7 @@ const FeatureSection = () => {
                   href="/gallery"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-purple text-base font-medium rounded-md text-black hover:text-white bg-transparent hover:bg-purple md:py-3 md:text-lg md:px-10"
                 >
-                  View Gallery
+                  Gallerie ansehen
                   <svg
                     className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                     aria-hidden="true"
@@ -90,26 +68,26 @@ const FeatureSection = () => {
           </div>
         </div>
       </div>
-
+n
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row">
           <div className="w-2/6 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-2/6">
-            <span className="text-black font-semibold font-montserrat text-4xl">
-              TECH STACK
+            <span className="text-white font-semibold font-montserrat text-4xl">
+              ERFAHRUNG
             </span>
             <div className="mt-5">
               <div>
-                <p className="text-black text-2xl">Gatsby 5+</p>
-                <p className="text-black opacity-50 text-sm">SSG and more...</p>
+                <p className="text-white text-2xl">Film/Video & Foto</p>
+                <p className="text-white opacity-50 text-sm">5+ Jahre Erfahrung</p>
               </div>
               <div className="mt-5">
-                <p className="text-black text-2xl">React 18+</p>
-                <p className="text-black opacity-50 text-sm">Create more...</p>
+                <p className="text-white text-2xl">Film/Video Bearbeitung</p>
+                <p className="text-white opacity-50 text-sm">4+ Jahre Erfahrung</p>
               </div>
               <div className="mt-5">
-                <p className="text-black text-2xl">Tailwind CSS 3+</p>
-                <p className="text-black opacity-50 text-sm">
-                  A utility-first CSS
+                <p className="text-white text-2xl">Projekt Planung</p>
+                <p className="text-white opacity-50 text-sm">
+                  1+ Jahre Erfahrung
                 </p>
               </div>
             </div>
@@ -117,19 +95,15 @@ const FeatureSection = () => {
 
           <div className="w-4/6 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-4/6">
             <h2 className="text-white text-4xl">
-              Start building amazing web experiences
+              Wir bringen Ihr Projekt ganz groß raus
             </h2>
             <p className="mt-10 text-white opacity-70">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+              Wir spezialisieren uns auf hochwertige Videografie- und Fotografie-Dienstleistungen für Unternehmen,
+              Künstler und Events. Im Bereich Werbung, Marketing und Promotion können wir Sie bestens unterstützen.
+              Wir passen unseren Stil individuell an die Bedürfnisse unserer Kunden an, um sicherzustellen, dass jedes
+              Projekt Ihre Vision mit Präzision und Kreativität widerspiegelt. Egal, ob Sie Ihre Brand auf das nächste
+              Level heben oder besondere Momente festhalten möchten – unser Team ist bereit, deutschlandweit Ihre Ideen
+              zum Leben zu erwecken. Lassen Sie uns gemeinsam etwas Außergewöhnliches schaffen.
             </p>
           </div>
         </div>
@@ -154,7 +128,7 @@ const FeatureSection = () => {
           including versions of Lorem Ipsum.
         </p>
       </div>
-
+      {/*
       <div className="mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold opacity-70">
           INTEGRATIONS
@@ -220,7 +194,7 @@ const FeatureSection = () => {
           </div>
         </div>
       </Fade>
-      {/* 
+
       <div className="mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold text-gradient bg-gradient-to-r from-pink to-purple">
           {" "}

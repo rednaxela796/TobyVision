@@ -1,12 +1,12 @@
 ---
-templateKey: blog-post
-title: Lorem Ipsum Is Simply Dummy Text
-date: 2024-03-30T15:39:18.616Z
+templateKey: gallerie-post
+title: Noroo Clothing GmbH
+date: 2024-05
 featuredimage: /img/Holographic-Liquid-1.jpg
 categories:
-  - blog
+  - Referenz
 tags:
-  - blog
+  - Referenz
 description: Lorem Ipsum is simply dummy text of the printing and typesetting
   industry. Lorem Ipsum has been the industry's standard dummy text ever since
   the 1500s, when an unknown printer took a galley of type and scrambled it to

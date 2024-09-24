@@ -4,7 +4,7 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
-  // const blogPost = path.resolve(`./src/templates/blog-post.js`)
+  // const blogPost = path.resolve(`./src/templates/gallerie-post.js`)
   return graphql(
     `
     {
@@ -31,8 +31,8 @@ exports.createPages = ({ graphql, actions }) => {
       throw result.errors
     }
     const posts = result.data.allMarkdownRemark.edges
-    // Template For blog-post
-    const blogPost = posts.filter(item => item.node.frontmatter.templateKey === 'blog-post')
+    // Template For gallerie-post
+    const blogPost = posts.filter(item => item.node.frontmatter.templateKey === 'gallerie-post')
     blogPost.forEach((post, index) => {
       const previous = index === blogPost.length - 1 ? null : blogPost[index + 1].node
       const next = index === 0 ? null : blogPost[index - 1].node

@@ -1,7 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 
-import HeroImage from "../images/3D-liquid-abstract-2.webp"
+import HeroImage from "../images/tvSmall.webp"
 import BackGroud from "../images/holographic-background.webp"
 
 const Gallery = () => {
@@ -11,16 +11,13 @@ const Gallery = () => {
         <div className="flex flex-row justify-space xxs:flex-col-reverse xs:flex-col-reverse sm:flex-row xxs:flex-col xs:flex-col sm:flex-row mb-5">
           <div className="max-h-80 w-1/2 flex flex-col justify-center bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-4 xxs:w-full xs:w-full sm:w-full lg:w-full">
             <h1 className="text-black opacity-70 text-4xl font-semibold">
-              GALLERY
+              GALLERIE
             </h1>
             <h1 className="text-white text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
-              Holo Starter Theme
+              FERTIGGESTELLTE PROJEKTE
             </h1>
             <p className="text-lg mt-4 text-white opacity-70 xxs:text-sm sm:text-lg">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              !!! SOMETHING ABOUT OUR PROJECTS HERE !!!
             </p>
           </div>
           <div className="rounded-xl w-auto h-full object-cover flex justify-center">
@@ -33,7 +30,7 @@ const Gallery = () => {
         <Fade bottom cascade>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
             <a
-              href="#"
+              href="/gallerie/villa-first/"
               className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:h-80"
             >
               <img
@@ -46,12 +43,12 @@ const Gallery = () => {
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
 
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Clean Animations
+                Villa First im Sophienhof
               </span>
             </a>
 
             <a
-              href="#"
+              href="/gallerie/noroo-clothing/"
               className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:col-span-2 md:h-80"
             >
               <img
@@ -64,12 +61,12 @@ const Gallery = () => {
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
 
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Easy to use
+                Noroo Clothing GmbH
               </span>
             </a>
 
             <a
-              href="#"
+              href="/gallerie/pizzeria-bosso/"
               className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:col-span-2 md:h-80"
             >
               <img
@@ -82,12 +79,12 @@ const Gallery = () => {
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
 
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Responsive
+                Pizzeria Bosso
               </span>
             </a>
 
             <a
-              href="#"
+              href="/gallerie/vince/"
               className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:h-80"
             >
               <img
@@ -100,11 +97,11 @@ const Gallery = () => {
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
 
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Tailwind CSS
+                ViNCE
               </span>
             </a>
             <a
-              href="#"
+              href="/gallerie/rossi-al-fiume/"
               className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:h-80"
             >
               <img
@@ -117,12 +114,12 @@ const Gallery = () => {
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
 
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                CMS Ready
+                Rossi Al Fiume
               </span>
             </a>
 
             <a
-              href="#"
+              href="/gallerie/forissimo-ristorante-italiano/"
               className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:col-span-2 md:h-80"
             >
               <img
@@ -135,7 +132,7 @@ const Gallery = () => {
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
 
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Fast
+                Forissimo Ristorante Italiano
               </span>
             </a>
           </div>

@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: gallerie-post
 title: Minimalist Gatsby Starter Theme
 date: 2024-03-30T18:18:16.118Z
 featuredimage: /img/holographic-background.webp

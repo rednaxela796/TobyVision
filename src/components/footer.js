@@ -1,10 +1,12 @@
 import { Link } from "gatsby"
 import React from "react"
 
-import logo from "../images/3D-liquid-abstract-5.webp"
+import logo from "../images/tv.webp"
+import Fade from "react-reveal/Fade";
 
 const Footer = () => {
   return (
+      <Fade bottom cascade>
     <div className="m-4">
       <div className="max-w-7xl mx-auto mt-10 h-auto lg:mb-8 sm:mb-4 xs:mb-4 xxs:mb-4">
         <div className="footer bg-gradient-to-r from-pink to-purple p-10 mt-10 rounded-xl">
@@ -12,33 +14,17 @@ const Footer = () => {
             <div>
               <img className="max-h-28 max-w-xs" src={logo} alt="Holo"></img>
               <p className="text-black opacity-70 text-sm mt-5 ">
-                A stunning and minimal<br></br> personalized website starter
-                theme
                 <br></br>
-                built with Gatsby.
               </p>
               <p className="text-white text-lg font-bold mt-20">
                 <span className="text-black font-montserrat font-semibold mt-20">
-                  &copy; {new Date().getFullYear()}. All Rights Reserved.
+                  &copy; {new Date().getFullYear()}. TobyVision Alexander Gardemann & Tobiasz Smith GbR
                 </span>
               </p>
               <div className="text-black font-bold block-inline">
                 <p>
                   <a className="text-black font-bold block-inline" href="/">
-                    Holo
-                  </a>
 
-                  <a
-                    className="text-black font-semibold ml-1"
-                    target="_blank"
-                    href="https://travislord.xyz"
-                  >
-                    By TL
-                  </a>
-                  <a
-                    href="https://github.com/lilxyzz/holo-theme"
-                    target="_blank"
-                  >
                     <img
                       className="w-5 h-5 mt-1"
                       src="/img/Github-Logo.png"
@@ -55,16 +41,16 @@ const Footer = () => {
                   <Link to="/">Home</Link>
                 </li>
                 <li>
-                  <Link to="/about">About</Link>
+                  <Link to="/about">Über uns</Link>
                 </li>
                 <li>
-                  <Link to="/gallery">Gallery</Link>
+                  <Link to="/gallery">Projekte</Link>
                 </li>{" "}
                 <li>
-                  <Link to="/blog">Blog</Link>
+                  <Link to="/contact">Kontakt</Link>
                 </li>
                 <li>
-                  <Link to="/contact">Contact</Link>
+                  <Link to="/impressum">Impressum</Link>
                 </li>
               </ul>
             </div>
@@ -72,6 +58,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
+      </Fade>
   )
 }
 
