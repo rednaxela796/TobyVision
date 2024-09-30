@@ -2,7 +2,7 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 
 // Assets
-import HeroImage from "../../images/home1.webp"
+import HeroImage from "../../images/home1old.webp"
 import Image1 from "../../images/3D-liquid-abstract-1.webp"
 import Image2 from "../../images/3D-liquid-abstract.webp"
 import Image3 from "../../images/3D-liquid-abstract-3.webp"
@@ -29,7 +29,7 @@ const FeatureSection = () => {
             </h3>
 
             <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0">
-              Unsere erfahrung und abgeschlossenen Filmprojekte
+              Unsere Erfahrungen und abgeschlossene Filmprojekte
             </p>
 
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-end">
@@ -98,8 +98,8 @@ const FeatureSection = () => {
               Wir bringen Ihr Projekt ganz groß raus
             </h2>
             <p className="mt-10 text-white opacity-70">
-              Wir spezialisieren uns auf hochwertige Videografie- und Fotografie-Dienstleistungen für Unternehmen,
-              Künstler und Events. Im Bereich Werbung, Marketing und Promotion können wir Sie bestens unterstützen.
+              Wir spezialisieren uns auf hochwertige videografische und fotografische Dienstleistungen für Unternehmen,
+              KünstlerInnen und Events. Im Bereich Werbung, Marketing und Promotion können wir Sie bestens unterstützen.
               Wir passen unseren Stil individuell an die Bedürfnisse unserer Kunden an, um sicherzustellen, dass jedes
               Projekt Ihre Vision mit Präzision und Kreativität widerspiegelt. Egal, ob Sie Ihre Brand auf das nächste
               Level heben oder besondere Momente festhalten möchten – unser Team ist bereit, deutschlandweit Ihre Ideen

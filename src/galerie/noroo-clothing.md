@@ -7,21 +7,13 @@ categories:
   - galerie
 tags:
   - galerie
-description: Lorem Ipsum is simply dummy text of the printing and typesetting
-  industry. Lorem Ipsum has been the industry's standard dummy text ever since
-  the 1500s, when an unknown printer took a galley of type and scrambled it to
-  make a type specimen book.
+description: Noroo
 ---
-## Lorem Ipsum 
+## Infos
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+- abc
+- abc
+- abc
+## Das Projekt
 
-## Simply Dummy Text
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-
-
-## Typesetting
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Das Ziel des Videos war es, die Kleidung von Noroo GmbH zu präsentieren, indem verschiedene Modelle die Produkte vorführten. Die Hauptaspekte des Videos waren, wie verschiedene Kleidungsstücke an unterschiedlichen Modellen wirken, und dies in einem professionellen Studio zu inszenieren. Der Stil und Ton des Videos war dynamisch, cineastisch und zugleich leger. Die Zielgruppe waren junge Sportlerinnen und Sportler. Die Produktion dauerte insgesamt etwa 8 Stunden und umfasste mehrere kurze Werbevideos für einzelne Kleidungsstücke wie Trainingsanzüge, Hoodies, T-Shirts, Hosen, Socken und Mützen. Gedreht wurde im Loftstudio 14c in Düsseldorf, mit mehreren Modellen und verschiedenen Sets. Das Feedback des Kunden war äußerst positiv – die finalen Videos wurden in deren Marketingkampagne verwendet und vermitteln ein professionelles Image für das Unternehmen.

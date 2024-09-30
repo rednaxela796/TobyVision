@@ -6,9 +6,9 @@ const AboutExtra = () => {
       <div className="mt-10 px-8">
 
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Unsere starke Partnerschaft ist das Rückgrat unseres Unternehmens. Wir motivieren uns gegenseitig, neue kreative Höhen zu erreichen und streben in jedem Projekt nach Perfektion. Für uns ist die Beziehung zu unseren Kunden die Grundlage für alles, was wir tun. Wir glauben an enge Zusammenarbeit, respektvollen Umgang und daran, dass der Arbeitsprozess Spaß macht – denn eine gute Zusammenarbeit führt zu außergewöhnlichen Videos.
+          Unsere Zusammenarbeit ist das Rückgrat unseres Unternehmens. Wir motivieren uns gegenseitig, neue kreative Höhen zu erreichen und streben in jedem Projekt nach Perfektion. Für uns ist die Beziehung zu unseren Kunden die Grundlage für alles, was wir tun. Wir glauben an eine enge Zusammenarbeit, respektvollen Umgang und einen unbeschwerten Arbeitsprozess – denn eine gute Zusammenarbeit führt zu außergewöhnlichen Videos.
 
-          Wenn Sie mit TobyVision arbeiten, erhalten Sie mehr als nur ein Video. Sie bekommen ein Kunstwerk, das nicht nur Ihre Erwartungen erfüllt, sondern bleibenden Eindruck hinterlässt – einfach, unvergesslich und immer mit Leidenschaft erstellt.
+
         </p>
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
           Wenn Sie mit TobyVision arbeiten, erhalten Sie mehr als nur ein Video. Sie bekommen ein Kunstwerk, das nicht nur Ihre Erwartungen erfüllt, sondern bleibenden Eindruck hinterlässt – einfach, unvergesslich und immer mit Leidenschaft erstellt.

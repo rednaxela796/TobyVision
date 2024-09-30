@@ -4,7 +4,7 @@ import TextCycle from "./Cycle";
 import { TextLoop } from "easy-react-text-loop";
 
 import hero from "../../images/tv.webp"
-const items = ['Professionel', 'Zuverlässig', 'Competent', 'Einwandfrei']; // Required
+const items = ['Professionell', 'Zuverlässig', 'Kompetent', 'Einwandfrei']; // Required
 const Header = () => {
   return (
     <Fade duration={2200}>
@@ -17,17 +17,17 @@ const Header = () => {
 
             <TextLoop>
               <span><h2 className="mb-20 text-black text-gradient bg-gradient-to-r from-pink to-purple text-6xl font-bold xxs:text-4xl xs:text-5xl sm:text-5xl lg:text-6xl">
-              Professionel
+              professionell
             </h2></span>
               <span><h2 className="mb-20 text-black text-gradient bg-gradient-to-r from-pink to-purple text-6xl font-bold xxs:text-4xl xs:text-5xl sm:text-5xl lg:text-6xl">
-                Zuverlässig
+                zuverlässig
             </h2></span>
               <span><h2 className="mb-20 text-black text-gradient bg-gradient-to-r from-pink to-purple text-6xl font-bold xxs:text-4xl xs:text-5xl sm:text-5xl lg:text-6xl">
-              Competent
+              kompetent
             </h2></span>
               <span>
                 <h2 className="mb-20 text-black text-gradient bg-gradient-to-r from-pink to-purple text-6xl font-bold xxs:text-4xl xs:text-5xl sm:text-5xl lg:text-6xl">
-              Einwandfrei
+              einwandfrei
             </h2>
               </span>
             </TextLoop>
@@ -44,7 +44,7 @@ const Header = () => {
                   href="/kontakt"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple  hover:bg-transparent md:text-lg md:px-10 "
                 >
-                  Ihr Projekt Starten
+                  Ihr Projekt starten
                   <svg
                     className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                     aria-hidden="true"
@@ -76,10 +76,10 @@ const Header = () => {
         </div>
         <div className="blog-hover bg-gradient-to-r from-pink to-purple border mt-10 border-gray-200 rounded-lg p-8 md:p-12 mb-8">
           <h2 className="text-black text-3xl font-simibold mb-2">
-            Ihre Vision in Perfektion: Wählen Sie Uns für Ihren Erfolg
+            Ihre Vision in Perfektion: Wählen Sie uns für Ihren Erfolg
           </h2>
           <p className="text-lg  text-black opacity-60 mb-6">
-            Mit modernster Technik und einem kreativen Team verwandeln wir Ihre Ideen in beeindruckende Videos, die Ihr Publikum begeistern. Vertrauen Sie auf unsere Erfahrung und Leidenschaft, um Ihre Botschaft wirkungsvoll und professionell zu vermittel.
+            Mit modernster Technik und einem kreativen Team verwandeln wir Ihre Ideen in beeindruckende Videos, die Ihr Publikum begeistern. Vertrauen Sie auf unsere Erfahrung und Leidenschaft, um Ihre Botschaft wirkungsvoll und professionell zu vermitteln.
           </p>
           <a
               href="/about"

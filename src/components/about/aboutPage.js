@@ -13,12 +13,12 @@ const WorkPage = () => {
         </h3>
 
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Bei TobyVision haben wir unsere lebenslange Leidenschaft, unvergessliche Momente zu schaffen, in ein professionelles Unternehmen für Videografie und Fotografie verwandelt. Was als Hobby begann – kreative, spaßige Videos zu machen – hat sich zu einer gemeinsamen Mission entwickelt, Unternehmen dabei zu helfen, ihre Geschichten auf einzigartige und wirkungsvolle Weise zu erzählen. Gegründet von zwei Partnern, die die visuelle Gestaltung lieben, glauben wir daran, dass es durch Videografie und Schnitt keine Grenzen für das gibt, was man erreichen kann.
+          Bei TobyVision schaffen wir unvergessliche Momente in einem professionellen Unternehmen für Videografie und Fotografie. Unser Unternehmen hilft dabei Ihre Geschichten auf einzigartige und wirkungsvolle Weise zu erzählen. Gegründet von zwei Partnern, mit einer Leidenschaft für die visuelle Gestaltung, glauben wir daran, dass es bei Videografie und Schnitt keine Grenzen gibt.
 
         </p>
 
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Mit jahrelanger Erfahrung in der Erstellung von Marketing- und Promotionsvideos sind wir stolz darauf, hochwertige und dynamische Videos zu liefern, die herausstechen. Unsere Kunden sind nicht nur Auftraggeber, sondern auch Partner und Freunde. Wir nehmen uns die Zeit, die Vision jedes Kunden zu verstehen und passen unsere Herangehensweise an, um sicherzustellen, dass ihre Ideen auf eine unvergessliche und professionelle Weise zum Leben erweckt werden.
+          Mit jahrelanger Erfahrung in der Erstellung von Marketing- und Promotionsvideos sind wir stolz darauf, hochwertige und dynamische Videos zu liefern, die herausstechen. Wir legen großen Wert darauf, eine enge Verbindung zu unseren Kunden aufzubauen und sicherzustellen, dass wir Ihre Vorstellungen und Wünsche genau verstehen und passen unsere Herangehensweise individuell an. Wir stellen sicher, dass ihre Ideen auf eine unvergessliche und professionelle Weise zum Leben erweckt werden.
         </p>
       </div>
     </div>
