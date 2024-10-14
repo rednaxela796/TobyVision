@@ -92,8 +92,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: "https://www.tobyvisin.de",
-        sitemap: "https://www.tobyvisin.de/sitemap-0.xml",
+        host: "https://www.tobyvison.de",
+        sitemap: "https://www.tobyvison.de/sitemap-0.xml",
         policy: [
           {
             userAgent: "Googlebot",
@@ -127,6 +127,42 @@ module.exports = {
       resolve: "gatsby-plugin-decap-cms",
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
+      },
+    },
+    `gatsby-plugin-gdpr-cookies`,
+    {
+      resolve: `gatsby-plugin-gdpr-cookies`,
+      options: {
+        googleAnalytics: {
+          trackingId: '', // leave empty if you want to disable the tracker
+          cookieName: 'gatsby-gdpr-google-analytics', // default
+          anonymize: true, // default
+          allowAdFeatures: false // default
+        },
+        googleTagManager: {
+          trackingId: '', // leave empty if you want to disable the tracker
+          cookieName: 'gatsby-gdpr-google-tagmanager', // default
+          dataLayerName: 'dataLayer', // default
+        },
+        facebookPixel: {
+          pixelId: '', // leave empty if you want to disable the tracker
+          cookieName: 'gatsby-gdpr-facebook-pixel', // default
+        },
+        tikTokPixel: {
+          pixelId: '', // leave empty if you want to disable the tracker
+          cookieName: 'gatsby-gdpr-tiktok-pixel', // default
+        },
+        hotjar: {
+          hjid: '',
+          hjsv: '',
+          cookieName: 'gatsby-gdpr-hotjar', // default
+        },
+        linkedin: {
+          trackingId: '', // leave empty if you want to disable the tracker
+          cookieName: 'gatsby-gdpr-linked-in', // default
+        },
+        // defines the environments where the tracking should be available  - default is ["production"]
+        environments: ['production', 'development']
       },
     },
     `gatsby-plugin-netlify`,

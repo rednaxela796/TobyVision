@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Hinter den Kulissen /Unser Prozess
-date: 2024-03-30T15:02:06.069Z
+date: 2024-10-30T15:02:06.069Z
 featuredimage: /img/Holographic-Liquid-3.jpg
 categories:
   - blog

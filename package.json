@@ -13,6 +13,7 @@
     "gatsby": "^5.13.6",
     "gatsby-plugin-decap-cms": "^4.0.3",
     "gatsby-plugin-gatsby-cloud": "^5.12.2",
+    "gatsby-plugin-gdpr-cookies": "^2.0.9",
     "gatsby-plugin-image": "^3.12.3",
     "gatsby-plugin-manifest": "^5.12.3",
     "gatsby-plugin-netlify": "^5.1.1",

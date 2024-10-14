@@ -51,13 +51,13 @@ const Footer = () => {
                   <Link to="/">Home</Link>
                 </li>
                 <li>
-                <Link to="/about">Über uns</Link>
+                <Link to="/tobyvision">Über uns</Link>
                 </li>
                 <li>
-                  <Link to="/gallery">Projekte</Link>
+                  <Link to="/gallerie">Projekte</Link>
                 </li>{" "}
                 <li>
-                  <Link to="/contact">Kontakt</Link>
+                  <Link to="/kontakt">Kontakt</Link>
                 </li>
                 <li>
                   <Link to="/impressum">Impressum</Link>

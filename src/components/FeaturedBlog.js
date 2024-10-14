@@ -24,7 +24,7 @@ const FeaturedBlog = () => {
               Sie es sich vorstellen, und dabei höchste Qualität liefern.
             </p>
             <a
-                href="/blog/blog-post"
+                href="/blog/hinter-den-kulissen"
                 className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white rounded-lg border border-purple  hover:bg-purple"
             >
               Weiter Lesen
@@ -54,7 +54,7 @@ const FeaturedBlog = () => {
               Hier finden Sie antworten auf viele Häufig gestellte Fragen.
             </p>
             <a
-                href="/blog/blog-post"
+                href="/blog/faq"
                 className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white rounded-lg border border-purple  hover:bg-purple"
             >
               FAQ
