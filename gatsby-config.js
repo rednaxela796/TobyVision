@@ -88,6 +88,41 @@ module.exports = {
         icon: `src/images/3D-liquid-abstract-5.webp`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-robots-txt`,
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://www.tobyvisin.de",
+        sitemap: "https://www.tobyvisin.de/sitemap-0.xml",
+        policy: [
+          {
+            userAgent: "Googlebot",
+            allow: ["/"],
+            disallow: [],
+          },
+          {
+            userAgent: "googlebot-image",
+            allow: [],
+            disallow: ["/"],
+          },
+          {
+            userAgent: "googlebot-mobile",
+            allow: ["/"],
+            disallow: [],
+          },
+          {
+            userAgent: "psbot",
+            allow: [],
+            disallow: ["/"],
+          },
+          {
+            userAgent: "*",
+            allow: ["/"],
+            disallow: ["/cgi-bin/"],
+          }
+        ],
+      },
+    },
     {
       resolve: "gatsby-plugin-decap-cms",
       options: {
