@@ -1,22 +1,21 @@
 ---
 templateKey: galerie-post
-title: Villa First im Spohienhof
+title: Villa First im Sophienhof
 date: 2024-07-01T15:02:06.069Z
 featuredimage: /img/Holographic-Liquid-2.jpg
 categories:
   - galerie
 tags:
   - galerie
-description: Lorem Ipsum is simply dummy text of the printing and typesetting
-  industry. Lorem Ipsum has been the industry's standard dummy text ever since
-  the 1500s, when an unknown printer took a galley of type and scrambled it to
-  make a type specimen book.
+description: Villa First Hotel Werbevideo – Sophienhof
 ---
 ## Infos
 
-- dsd
-- dsd
-- dsd
+
+<li>Video und Foto Produktion</li>
+<li>Location: Königswinter</li>
+<li>Produktionsdauer: 1 Woche</li>
+
 
 ## Das Projekt
 

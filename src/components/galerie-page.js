@@ -17,7 +17,9 @@ const Galerie = () => {
               FERTIGGESTELLTE PROJEKTE
             </h1>
             <p className="text-lg mt-4 text-white opacity-70 xxs:text-sm sm:text-lg">
-              !!! SOMETHING ABOUT OUR PROJECTS HERE !!!
+              Hier finden Sie eine Auswahl unserer vergangenen Projekte, die unsere Leidenschaft für Videografie
+              widerspiegeln. Jedes Projekt erzählt eine einzigartige Geschichte und zeigt unser Engagement für
+              Qualität und Kreativität. Lassen Sie sich von unserer Arbeit inspirieren!
             </p>
           </div>
           <div className="rounded-xl w-auto h-full object-cover flex justify-center">

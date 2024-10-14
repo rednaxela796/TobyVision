@@ -7,17 +7,14 @@ categories:
   - galerie
 tags:
   - galerie
-description: Lorem Ipsum is simply dummy text of the printing and typesetting
-  industry. Lorem Ipsum has been the industry's standard dummy text ever since
-  the 1500s, when an unknown printer took a galley of type and scrambled it to
-  make a type specimen book.
+description: Dreharbeiten zum Musikvideo "Endorphin"
 ---
 ## Infos
 
-- abc
-- abc
-- abc
-- 
+<li>Video Produktion</li>
+<li>Location: Bonn</li>
+<li>Produktionsdauer: 2 Wochen</li>
+
 ## Dreharbeiten zum Musikvideo "Endorphin"
 
 <br/><br/>

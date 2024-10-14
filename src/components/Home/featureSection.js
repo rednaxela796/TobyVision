@@ -109,7 +109,7 @@ const FeatureSection = () => {
         </div>
       </Fade>
 
-      <div className="mt-10 px-8">
+{/*      <div className="mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold opacity-70">
           OPEN SOURCE
         </h2>
@@ -127,7 +127,7 @@ const FeatureSection = () => {
           more recently with desktop publishing software like Aldus PageMaker
           including versions of Lorem Ipsum.
         </p>
-      </div>
+      </div>*/}
       {/*
       <div className="mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold opacity-70">
