@@ -88,20 +88,20 @@ const Navbar = () => {
             </a>
             <a
               className="text-black opacity-50 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-montserrat"
-              href="/about"
+              href="/tobyvision"
             >
               Über uns
             </a>
 
             <a
               className="text-black opacity-50 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-montserrat"
-              href="/gallery"
+              href="/gallerie"
             >
               Projekte
             </a>
             <a
               className="text-black opacity-50 hover:opacity-100 px-3 py-3 rounded-md text-m font-medium font-montserrat"
-              href="/contact"
+              href="/kontakt"
             >
               Kontakt
             </a>

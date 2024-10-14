@@ -45,7 +45,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="place-self-end self-center xxs:hidden lg:block">
+            <div className="place-self-end self-center lg:block">
               <ul className="text-xl font-montserrat font-medium">
                 <li>
                   <Link to="/">Home</Link>
