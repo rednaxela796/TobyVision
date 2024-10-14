@@ -1,7 +1,7 @@
 ---
 templateKey: galerie-post
 title: Villa First im Spohienhof
-date: 2024-07
+date: 2024-07-01T15:02:06.069Z
 featuredimage: /img/Holographic-Liquid-2.jpg
 categories:
   - galerie

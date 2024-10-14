@@ -1,7 +1,7 @@
 ---
 templateKey: galerie-post
 title: ViNCE
-date: 2024-09
+date: 2024-09-01T15:02:06.069Z
 featuredimage: /img/Holographic-Liquid-2.jpg
 categories:
   - galerie

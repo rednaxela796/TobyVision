@@ -1,7 +1,7 @@
 ---
 templateKey: galerie-post
 title: Noroo Clothing GmbH
-date: 2024-05
+date: 2024-05-01T15:02:06.069Z
 featuredimage: /img/Holographic-Liquid-1.jpg
 categories:
   - galerie

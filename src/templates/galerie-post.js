@@ -52,8 +52,8 @@ const GaleriePost = props => {
   const post = props.data.markdownRemark
   let date = new Date(post.frontmatter.date) // assuming post.frontmatter.date is in ISO string format
   let options = { year: "numeric", month: "short" }
-  let formattedDate = date.toLocaleDateString("de-DE", options)
-  let titlaDate = date.toLocaleDateString("de-DE", {
+  let formattedDate = date.toLocaleDateString("en-US", options)
+  let titlaDate = date.toLocaleDateString("en-US", {
     year: "numeric",
     month: "long",
   })
@@ -158,7 +158,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM, YYYY")
+        date(formatString: "MMMM DD, YYYY")
         description
         featuredimage {
           childImageSharp {
