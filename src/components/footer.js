@@ -54,7 +54,7 @@ const Footer = () => {
                 <Link to="/tobyvision">Über uns</Link>
                 </li>
                 <li>
-                  <Link to="/gallerie">Projekte</Link>
+                  <Link to="/galerie">Projekte</Link>
                 </li>{" "}
                 <li>
                   <Link to="/kontakt">Kontakt</Link>

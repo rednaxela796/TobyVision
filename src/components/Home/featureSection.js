@@ -25,7 +25,7 @@ const FeatureSection = () => {
           <div className="lg:w-1/2 sm:text-center lg:text-right flex flex-col justify-center">
             <h2 className="text-black text-4xl font-semibold">PROJEKTE</h2>
             <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-              Gallerie
+              Galerie
             </h3>
 
             <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0">
