@@ -34,7 +34,7 @@ const FeatureSection = () => {
 
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-end">
               <div className="rounded-md">
-                <a
+                <a role="button"
                   href="tel:017670067578"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
                 >
@@ -42,11 +42,11 @@ const FeatureSection = () => {
                 </a>
               </div>
               <div className="mt-3 sm:mt-0 sm:ml-3">
-                <a
+                <a role="button"
                   href="/galerie"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-purple text-base font-medium rounded-md text-black hover:text-white bg-transparent hover:bg-purple md:py-3 md:text-lg md:px-10"
                 >
-                  Gallerie ansehen
+                  Galerie ansehen
                   <svg
                     className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                     aria-hidden="true"

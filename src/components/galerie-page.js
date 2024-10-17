@@ -11,7 +11,7 @@ const Galerie = () => {
         <div className="flex flex-row justify-space xxs:flex-col-reverse xs:flex-col-reverse sm:flex-row xxs:flex-col xs:flex-col sm:flex-row mb-5">
           <div className="max-h-80 w-1/2 flex flex-col justify-center bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-4 xxs:w-full xs:w-full sm:w-full lg:w-full">
             <h1 className="text-black opacity-70 text-4xl font-semibold">
-              GALLERIE
+              GALERIE
             </h1>
             <h1 className="text-white text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
               FERTIGGESTELLTE PROJEKTE
@@ -45,7 +45,7 @@ const Galerie = () => {
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
 
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Villa First im Sophienhof
+                Noroo Clothing GmbH
               </span>
             </a>
 
@@ -63,7 +63,7 @@ const Galerie = () => {
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
 
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Noroo Clothing GmbH
+                Noroo Clothing GmbHVilla First im Sophienhof
               </span>
             </a>
 
@@ -85,6 +85,24 @@ const Galerie = () => {
               </span>
             </a>
 
+
+            <a
+              href="/galerie/fronhofer-galeria/"
+              className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:h-80"
+            >
+              <img
+                src={BackGroud}
+                loading="lazy"
+                alt="HeroImage"
+                className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+              />
+
+              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+
+              <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
+                Fronhofer Galeria
+              </span>
+            </a>
             <a
               href="/galerie/vince/"
               className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:h-80"
@@ -102,26 +120,9 @@ const Galerie = () => {
                 ViNCE
               </span>
             </a>
+
             <a
               href="/galerie/rossi-al-fiume/"
-              className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:h-80"
-            >
-              <img
-                src={BackGroud}
-                loading="lazy"
-                alt="HeroImage"
-                className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-              />
-
-              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
-
-              <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Rossi Al Fiume
-              </span>
-            </a>
-
-            <a
-              href="/galerie/forissimo-ristorante-italiano/"
               className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:col-span-2 md:h-80"
             >
               <img
@@ -134,7 +135,7 @@ const Galerie = () => {
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
 
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Forissimo Ristorante Italiano
+                Rossi Al Fiume
               </span>
             </a>
           </div>
