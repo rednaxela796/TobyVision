@@ -15,6 +15,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/static/font`,
+        name: `fonts`,
+      },
+    },
+    {
       resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/static/img`,
@@ -79,8 +86,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Holo - Gatsby Starter Theme`,
-        short_name: `Holo`,
+        name: `TobyVision Alexander Gardemann & Tobiasz Smith GbR`,
+        short_name: `TobyVision`,
         start_url: `/`,
         background_color: `#ebebfa`,
         theme_color: `#ebebfa`,

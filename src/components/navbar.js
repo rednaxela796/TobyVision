@@ -12,8 +12,8 @@ const Navbar = () => {
               className="text-black flex-shrink-0 font-montserrat font-semibold"
               href="/"
             >
-              <span className="text-gradient bg-gradient-to-r from-pink to-purple font-semibold text-xl">
-                TOBYVISION
+              <span className="font-parisienne text-gradient bg-gradient-to-r from-pink to-purple text-3xl">
+                TobyVision
               </span>
             </a>
             <div className="hidden md:block">

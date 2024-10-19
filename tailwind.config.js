@@ -8,6 +8,7 @@ module.exports = {
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
         notoserif: ["Noto Serif", "sans-serif"],
+        parisienne: ["Parisienne", "cursive"],
       },
     },
     colors: {

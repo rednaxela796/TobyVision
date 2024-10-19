@@ -3,6 +3,14 @@
 @tailwind utilities;
 
 
+@layer base {
+  @font-face {
+    font-family: Parisienne;
+    font-weight: 400;
+    src: url(/font/Parisienne-Regular.woff2) format("woff");
+  }
+}
+
 p, input, textarea {
   font-family: "Noto Serif", sans-serif;
   font-size: 1rem !important;
@@ -10,8 +18,13 @@ p, input, textarea {
 }
 
 
- h1,h2,h3,h4,h5,h6,span {
+ h1,h2,h3,h4,h5,span {
   font-family: "Montserrat", sans-serif;
+}
+
+h6 {
+  font-family: 'Parisienne', cursive;
+    font-size: 2rem !important;
 }
 
 a {
