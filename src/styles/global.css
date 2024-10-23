@@ -7,6 +7,7 @@
   @font-face {
     font-family: Parisienne;
     font-weight: 400;
+    src: url(/font/Parisienne-Regular.woff2) format("woff");
   }
 }
 
@@ -104,7 +105,6 @@ body {
 .video-16by9 {
   position: relative;
   width: 100%;
-  min-width: 700px;
   height: fit-content;
   padding-top: 58.70%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
   line-height: 0;

@@ -85,7 +85,7 @@ const GaleriePost = props => {
               </div>
             )}
             {post.frontmatter.featuredvideo && (
-                <div className={"video-16by9"}
+                <div className={"video-16by9 lg:min-w-700"}
                 >
                   <iframe
                           src={post.frontmatter.featuredvideo}
