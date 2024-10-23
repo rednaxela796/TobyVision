@@ -60,6 +60,15 @@ const GaleriePost = props => {
 
   let isoDate = date.toISOString().split("T")[0] // get the date part of the ISO string
 
+
+  var iFrameElements = window.document.getElementsByTagName("iframe");
+  for (var i = 0; i < iFrameElements.length; i++)
+  {
+    iFrameElements[i].frameBorder="0";   //  For other browsers.
+    iFrameElements[i].setAttribute("frameBorder", "0");   //  For other browsers (just a backup for the above).
+    iFrameElements[i].contentWindow.document.body.style.border="none";   //  For IE.
+  }
+
   return (
     <Layout>
       <Seo
@@ -89,13 +98,14 @@ const GaleriePost = props => {
                   <iframe
                           src={post.frontmatter.featuredvideo}
                           className="responsive-iframe"
-                          allowFullScreen="false"
+                          allowFullScreen={false}
                           marginWidth="0"
                           marginHeight="0"
                           hspace="0"
                           vspace="0"
                           frameBorder="0"
                           scrolling="no"
+                          align="center"
                   ></iframe>
                 </div>
             )}

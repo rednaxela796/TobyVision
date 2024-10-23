@@ -104,9 +104,14 @@ body {
 .video-16by9 {
   position: relative;
   width: 100%;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  min-width: 700px;
+  height: fit-content;
+  padding-top: 58.70%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
   line-height: 0;
   -webkit-align-content: center;
+  padding-right: 0;
+  padding-left: 0;
+  margin:0;
 
 }
 
@@ -134,4 +139,6 @@ iframe {
   -webkit-align-items: center;
   -webkit-align-self: center;
   -webkit-align-content: center;
+  margin: 0 auto;
+  display: block;
 }
