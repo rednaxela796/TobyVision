@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 
-const BlogsContainer = ({ data }) => {
+const GalerieContainer = ({ data }) => {
   let posts = data?.map(item => {
     return {
       featuredimage: item.node.frontmatter.featuredimage,
@@ -85,4 +85,4 @@ const BlogsContainer = ({ data }) => {
   )
 }
 
-export default BlogsContainer
+export default GalerieContainer

@@ -74,7 +74,7 @@ const GaleriePost = props => {
                 {post.frontmatter.title}
               </h1>
             </header>
-            {post.frontmatter.featuredimage && (
+{/*            {post.frontmatter.featuredimage && (
               <div className="post-content-image">
                 <GatsbyImage
                   image={getImage(post.frontmatter.featuredimage)}
@@ -82,7 +82,24 @@ const GaleriePost = props => {
                   alt={post.frontmatter.title}
                 />
               </div>
+            )}*/}
+            {post.frontmatter.featuredvideo && (
+                <div className={"video-16by9"}
+                >
+                  <iframe
+                          src={post.frontmatter.featuredvideo}
+                          className="responsive-iframe"
+                          allowFullScreen="false"
+                          marginWidth="0"
+                          marginHeight="0"
+                          hspace="0"
+                          vspace="0"
+                          frameBorder="0"
+                          scrolling="no"
+                  ></iframe>
+                </div>
             )}
+
             <p className="text-base text-gray-500 dark:text-gray-400 lg:mb-2">
               <time dateTime={isoDate} title={titlaDate}>
                 {formattedDate}
@@ -90,7 +107,7 @@ const GaleriePost = props => {
             </p>
 
             <StyledDiv
-              className="post-content-body text-[#000000]"
+                className="post-content-body text-[#000000]"
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
             <div className="flex items-center justify-between pt-8">
@@ -160,6 +177,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        featuredvideo
         featuredimage {
           childImageSharp {
             gatsbyImageData(layout: FULL_WIDTH)
