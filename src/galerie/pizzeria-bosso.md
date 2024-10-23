@@ -2,7 +2,6 @@
 templateKey: galerie-post
 title: Pizzeria Bosso
 date: 2024-08-01T15:02:06.069Z
-featuredimage: /img/Holographic-Liquid-3.jpg
 featuredvideo: "https://res.cloudinary.com/dgzuewesb/video/upload/f_auto:video,q_auto/BossoAmMarkt_ond4kz"
 categories:
   - galerie

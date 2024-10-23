@@ -61,14 +61,6 @@ const GaleriePost = props => {
   let isoDate = date.toISOString().split("T")[0] // get the date part of the ISO string
 
 
-  var iFrameElements = window.document.getElementsByTagName("iframe");
-  for (var i = 0; i < iFrameElements.length; i++)
-  {
-    iFrameElements[i].frameBorder="0";   //  For other browsers.
-    iFrameElements[i].setAttribute("frameBorder", "0");   //  For other browsers (just a backup for the above).
-    iFrameElements[i].contentWindow.document.body.style.border="none";   //  For IE.
-  }
-
   return (
     <Layout>
       <Seo
@@ -83,7 +75,7 @@ const GaleriePost = props => {
                 {post.frontmatter.title}
               </h1>
             </header>
-{/*            {post.frontmatter.featuredimage && (
+            {post.frontmatter.featuredimage && (
               <div className="post-content-image">
                 <GatsbyImage
                   image={getImage(post.frontmatter.featuredimage)}
@@ -91,7 +83,7 @@ const GaleriePost = props => {
                   alt={post.frontmatter.title}
                 />
               </div>
-            )}*/}
+            )}
             {post.frontmatter.featuredvideo && (
                 <div className={"video-16by9"}
                 >
